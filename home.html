@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="tampilan.css">
+    <script src="jsnya.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-plus-medical'></i>
+                <div class="logo_name">Pets Clinic</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="home.html">
+                    <i class='bx bx-home' ></i>
+                    <span class="link_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-injection'></i>
+                    <span class="link_name">About</span>
+                </a>
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+                <a href="table.html">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="link_name">Data Antrian</span>
+                </a>
+                <span class="tooltip">Data Antria</span>
+            </li>
+            <li>
+                <a href="form.html">
+                    <i class='bx bx-bookmark-plus'></i>
+                    <span class="link_name">Formulir</span>
+                </a>
+                <span class="tooltip">Formulir</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_detail">
+                    <img src="foto.jpg" alt="">
+                    <div class="name_job">
+                        <div class="name">Indira yulianti</div>
+                        <div class="job">F55121023</div>
+                    </div>
+                </div>
+                <a href="index.html"><i class='bx bx-log-out' id="log_out"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="text">Home content</div>
+        <div class="body">
+            <h1>Pets Clinic</h1>
+            <p>SELAMATKAN HEWAN KESAYANGAN KAMU SEKARANG JUGA </p>
+        </div>
+    </div>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar= document.querySelector(".sidebar");
+        
+        btn.onclick = function(){
+            sidebar.classList.toggle("active")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="tampilan.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-plus-medical'></i>
+                <div class="logo_name">Pets Clinic</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="home.html">
+                    <i class='bx bx-home' ></i>
+                    <span class="link_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-injection'></i>
+                    <span class="link_name">About</span>
+                </a>
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+                <a href="table.html">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="link_name">Data Antrian</span>
+                </a>
+                <span class="tooltip">Data Antria</span>
+            </li>
+            <li>
+                <a href="form.html">
+                    <i class='bx bx-bookmark-plus'></i>
+                    <span class="link_name">Formulir</span>
+                </a>
+                <span class="tooltip">Formulir</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_detail">
+                    <img src="foto.jpg" alt="">
+                    <div class="name_job">
+                        <div class="name">Indira yulianti</div>
+                        <div class="job">F55121023</div>
+                    </div>
+                </div>
+                <a href="index.html"><i class='bx bx-log-out' id="log_out"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="text"></div>
+        <div class="utama">
+            <h3>DAFTAR ANTRIAN PEMERIKSAAN HEWAN</h3>
+            <table id="tabelsaya"class="table">
+                <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pemeilik Hewan Peliharaan</th>
+                    <th>Nama Hewan Peliharaan</th>
+                    <th>jenis Hewan</th>
+                    <th>Umur Hewan</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Status Pemeriksaan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Indira</td>
+                    <td>Moci</td>
+                    <td>Kucing</td>
+                    <td>4 Tahun</td>
+                    <td>Betina</td>
+                    <td>Telah Selesai Pemeriksaan</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Siti</td>
+                    <td>Moca</td>
+                    <td>Kucing</td>
+                    <td>2,5 Tahun</td>
+                    <td>Betina</td>
+                    <td>Telah Selesai Pemeriksaan</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Edward</td>
+                    <td>Blacky</td>
+                    <td>Anjing</td>
+                    <td>7 Tahun</td>
+                    <td>Jantan</td>
+                    <td>Telah Selesai Pemeriksaan</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>fajrin</td>
+                    <td>Coco</td>
+                    <td>Kucing</td>
+                    <td>5 Tahun</td>
+                    <td>Jantan</td>
+                    <td>Telah Selesai Pemeriksaan</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Indah</td>
+                    <td>Bao</td>
+                    <td>Kucing</td>
+                    <td>1 Tahun</td>
+                    <td>Jantan</td>
+                    <td>Telah Selesai Pemeriksaan</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Vidya</td>
+                    <td>Roxy</td>
+                    <td>Biawak</td>
+                    <td>1 Tahun</td>
+                    <td>Betina</td>
+                    <td>Telah Selesai Pemeriksaan</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Rosanti</td>
+                    <td>Oreo</td>
+                    <td>Kucing</td>
+                    <td>1,5 Tahun</td>
+                    <td>jantan</td>
+                    <td>Telah Selesai Pemeriksaan</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Felisya</td>
+                    <td>Luigi</td>
+                    <td>Anjing</td>
+                    <td>5 Tahun</td>
+                    <td>Betina</td>
+                    <td>Belum Melakukan Pemeriksaan</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>wahyu</td>
+                    <td>Bibo</td>
+                    <td>Monyet</td>
+                    <td>3 Tahun</td>
+                    <td>Betina</td>
+                    <td>Belum Melakukan Pemeriksaan</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Nadia</td>
+                    <td>Chiyo</td>
+                    <td>Biawak</td>
+                    <td>1 Tahun</td>
+                    <td>Jantan</td>
+                    <td>Belum Melakukan Pemeriksaan</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar= document.querySelector(".sidebar");
+        
+        btn.onclick = function(){
+            sidebar.classList.toggle("active")
+        }
+    </script>
+</body>
+</html>
